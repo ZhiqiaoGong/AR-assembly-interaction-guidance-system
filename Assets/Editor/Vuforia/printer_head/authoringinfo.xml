@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo>
+<TargetSet version="27.0" toolVersion="10.13.3">
+<ModelTarget name="printer_head" targetId="0e8ca0b14c424e9ea41b0cd66ead53af" version="14.0" toolVersion="10.13.3" bbox="-0.277806 -0.288345 -0.301969 0.283871 0.228102 -0.155587" previewImage="0e8ca0b14c424e9ea41b0cd66ead53af_preview.jpg"/>
+
+</TargetSet>
+
+<Assembly name="printer_heads_assembly" assemblyId="5c08c61dac9f47b89bb88ffe51367d36">
+<Part name="printer_head" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.0104969 -0.257578 0.980412" rotation="AD: 0.999879 0.161921 -0.121415 107.373" image="printer_head_GuideView_0000.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="0.000445523 -0.263825 1.00586" rotation="AD: 0.823842 1.12573 -0.898811 136.756" image="printer_head_GuideView_0001.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0002" translation="0.0104181 -0.258692 0.984363" rotation="AD: -0.3214 1.58652 -1.21812 193.89" image="printer_head_GuideView_0002.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0003" translation="-0.00174377 -0.256379 0.975713" rotation="AD: 0.978581 -0.626761 0.481222 118.295" image="printer_head_GuideView_0003.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0004" translation="-0.00772695 -0.249218 0.955747" rotation="AD: 0.989342 0.54696 -0.360417 122.428" image="printer_head_GuideView_0004.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0005" translation="0.0073138 -0.237486 0.930227" rotation="AD: 0.491596 1.7881 -1.04642 164.611" image="printer_head_GuideView_0005.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0006" translation="0.00720122 -0.24507 0.945867" rotation="AD: -0.782745 1.30415 -0.873644 213.287" image="printer_head_GuideView_0006.png" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0007" translation="-0.00772418 -0.246892 0.950093" rotation="AD: 0.999461 -0.244966 0.166811 113.722" image="printer_head_GuideView_0007.png" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARInfo>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v5.7.6">
+        <ModelTarget name="printer_head6" targetId="e52d10d55730462d99ccb7f31101efb2" version="13.0" toolVersion="v5.7.6" bbox="-0.271515 0.027437 -0.238057 0.290162 0.173819 0.278390" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="default" realisticTextures="yes" />
+    </TargetSet>
+    <Assembly name="printer_head6" assemblyId="af0c408380934b3bba61bd66ba7d367d">
+        <Part name="printer_head6" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

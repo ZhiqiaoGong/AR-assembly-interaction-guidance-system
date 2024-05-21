@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="printer" motionHint="adaptive" trackingMode="scan" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="printers_assembly" assemblyId="d6229330d7bf4f84b7b36000106c7e20">
+<Part name="printer" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="-0.00315262 -0.314804 1.01527" rotation="AD: -0.00414249 2.08144 -1.1402 180.11" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="0.000810651 -0.365391 1.21625" rotation="AD: 0.107297 1.68578 -1.23496 175.697" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>

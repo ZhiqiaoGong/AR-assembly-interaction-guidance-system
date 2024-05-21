@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gzq.baidu" >
+
+    <uses-sdk android:minSdkVersion="24" /> <!-- 填写自己的包名 -->
+    <!-- 通用权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 语音识别权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 语音合成权限 -->
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application android:allowBackup="true" >
+        <activity android:name="com.gzq.baidu.Wakeup.WakeUpResult" />
+        <activity android:name="com.gzq.baidu.Wakeup.WakeupHandler" />
+        <activity
+            android:name="com.gzq.baidu.CientBaiDuVoiceMainActivity"
+            android:launchMode="singleTask" />
+        <!-- 请填写真实的APP_ID API_KEY SECRET_KEY -->
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="34187653" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="Cjy1p6Yo9fIfHCGeHW3keaOI" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="zmPs37ArskeznorWw9VcSG1D9pGDGNtV" />
+
+        <service
+            android:name="com.baidu.speech.VoiceRecognitionService"
+            android:exported="false" />
+    </application>
+
+</manifest>

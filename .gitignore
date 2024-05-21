@@ -1,0 +1,7 @@
+*.ipch
+*.db
+library/
+Assets/Resources/
+*.tgz
+*.apk
+
